@@ -79,15 +79,15 @@ body {
 .login {
     background-color: #4CAF50;
     color: white;
-    padding: 15px 230px;
+    padding: 15px 200px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
     border: none;
     border-radius: 30px;
+    width: auto;
 }
 .login h3{
     font-size: 1.4rem;
