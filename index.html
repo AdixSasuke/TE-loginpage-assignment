@@ -11,70 +11,45 @@
         <div class="left">
             <h1>Log in</h1>
 
-            <div class="mails">
-                <span>
-                    <img src="mail-24.png" class="mail">
-                </span>
-                <span>
-                    <input class="box" type="text" name="email" placeholder="Email or Phone Number" required>
-                </span>
+            <div class="form-group mails">
+                <img src="mail-24.png" class="icon" alt="Email icon">
+                <input class="box" type="text" name="email" placeholder="Email or Phone Number" required>
             </div>
 
-            <div class="passwords">
-                <span>
-                    <img src="lock-4-24.png" class="lock">
-                </span>
-                <span>
-                    <input class="box" type="password" name="pass" placeholder="Password" required>
-                </span>
+            <div class="form-group passwords">
+                <img src="lock-4-24.png" class="icon" alt="Lock icon">
+                <input class="box" type="password" name="pass" placeholder="Password" required>
             </div>
 
             <div class="remember">
-                <span id="cbox">
-                    <input id="mycheckBox" type="checkbox">
-                    <label for="mycheckBox">remember me</label>
-                </span>
-
-                <span>    
-                    <a href="#" id="forget"><b>Forgot Password ?</b></a>
-                </span>
+                <label for="mycheckBox">
+                    <input id="mycheckBox" type="checkbox"> Remember me
+                </label>
+                <a href="#" id="forget">Forgot Password?</a>
             </div>
 
             <div class="login-btn">
-                <button class="login">
-                    <h3>Log in</h3>
-                </button>
+                <button class="login">Log in</button>
             </div>
 
-            <div class="or">
-                <p>Log in with</p>
-            </div>
+            <p class="or">Log in with</p>
 
             <div class="autologin">
-
-                <button id="google" type="image">
-                    <img class="loginimg" src="google.png">
-                </button>
-
-                <button id="fb" type="image">
-                    <img class="loginimg" src="fb.png">
-                </button>          
-
+                <button id="google" type="image"><img class="loginimg" src="google.png" alt="Google logo"></button>
+                <button id="fb" type="image"><img class="loginimg" src="fb.png" alt="Facebook logo"></button>
             </div>
 
             <div class="register">
-                <div>
-                    <a href="#" id="account">Don't have an account?</a>
-                </div>
-                <div>
-                    <a href="#" id="registernow"><b>Register Now?</b></a>
-                </div>
+                <a href="#" id="account">Don't have an account?</a>
+            </div>
+            <div class="reg">
+                <a href="#" id="registernow"><b>Register Now?</b></a>
             </div>
 
         </div>
 
         <div class="right">
-            <img src="right.png" class="rightimg">
+            <img src="right.png" class="rightimg" alt="Right image">
         </div>
     </div>
 </body>
