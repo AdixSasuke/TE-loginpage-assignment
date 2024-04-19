@@ -27,37 +27,30 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 0px;
 }
 
 .left h1 {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 100px;
-    margin-top: 0px;
 }
 
-.mails,
-.passwords {
+.form-group {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     box-shadow: 0px 1px 0px #afa9a8;
 }
 
-.mails input,
-.passwords input {
+.icon {
+    padding: 5px 5px;
+}
+
+.box {
     border: 0px;
     border-radius: 5px;
     padding: 10px;
     width: 640px; 
-}
-
-.mails label,
-.passwords label {
-    width: 15%;
-    text-align: right;
-    padding-right: 20px;
 }
 
 .remember {
@@ -67,9 +60,10 @@ body {
     margin-bottom: 30px;
 }
 
-.remember input {
+.remember label {
     margin-right: 10px;
 }
+
 .login-btn {
     display: flex;
     justify-content: center;
@@ -86,9 +80,9 @@ body {
     font-size: 16px;
     cursor: pointer;
     border: none;
-    border-radius: 30px;
-    width: auto;
+    border-radius:50px;
 }
+
 .login h3{
     font-size: 1.4rem;
 }
@@ -112,32 +106,33 @@ body {
     margin-top: 30px;
 }
 
-#account{
+#account {
     color: #7d7979;
     text-decoration: none;
 }
-#registernow{
+
+#registernow {
     color: black;
 }
-#forget{
+
+#forget {
     color: black;
 }
-.right{
+
+.right {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
 }
-.right img{
-    width:100%;
+
+.right img {
+    width: 100%;
     height: 800px;
 }
-.mail,
-.lock{
-    padding: 5px 5px;
-}
+
 #google,
-#fb{
+#fb {
     padding: 9px 40px;
     background-color: #ffffff;
     border: 0px;
